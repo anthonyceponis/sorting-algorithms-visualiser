@@ -1,0 +1,98 @@
+.sidenav-backdrop {
+  background-color: rgba(0, 0, 0);
+  transition: 0.5s ease;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.sidenav {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  transition: 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.sidenav > div {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 300px;
+}
+
+.sidenav > div > ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidenav > div > ul > li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sidenav > div > ul > li > label {
+  padding: 2px 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.sidenav > div > ul > li > input {
+  display: none;
+}
+
+.sidenav > div > ul > li > input:checked ~ label {
+  background-color: #eee;
+  border-radius: 7px;
+}
+
+.sidenav-toggle-container {
+  display: flex;
+  justify-content: flex-end !important;
+  flex-direction: row !important;
+  width: 240px !important;
+}
+
+.sidenav-toggle {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.sidenav-toggle::before,
+.sidenav-toggle::after {
+  position: absolute;
+  content: "";
+  background-color: black;
+  transition: 0.2s ease;
+  height: 2px;
+  width: 20px;
+  border-radius: 10px;
+  right: 2px;
+}
+
+.sidenav-toggle:hover::before,
+.sidenav-toggle:hover::after {
+  background-color: grey;
+}
+
+.sidenav-toggle::before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.sidenav-toggle::after {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}

@@ -1,0 +1,25 @@
+.slider {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.slider > input {
+  appearance: none;
+  width: 150px;
+  height: 7px;
+  border-radius: 10px;
+  background: #eee;
+  outline: none;
+}
+
+.slider > input::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: yellow;
+  cursor: pointer;
+}

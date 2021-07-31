@@ -1,0 +1,31 @@
+.sorting-visualiser {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  column-gap: 1px;
+  z-index: 10;
+}
+
+.sorting-visualiser > li {
+  background-color: lightskyblue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sorting-visualiser-header {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20vw;
+  color: rgba(0, 0, 0, 0.05);
+  pointer-events: none;
+}
