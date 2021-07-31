@@ -1,3 +1,6 @@
+<h1>Sorting Algorithms Visualiser</h1>
+<hr>
+
 Welcome to the sorting algorithms visualiser! 
 
 I built this app simply because I find it facinating how algorithms can transform such a complex arrangement of bars into a perfectly aligned ramp.
