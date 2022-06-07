@@ -7,4 +7,4 @@ You can easily see how different algorithms become much faster/slower as you inc
 
 The app is very simple and intuitive to use. Have fun playing around with the settings to see the algorithms in action!
 
-You can access it here (use Google Chrome): <a href="https://anthonyceponis.github.io/sorting-algorithms-visualiser" target="_blank">https://anthonyceponis.github.io/sorting-algorithms-visualiser</a>
+You can access it here (use Google Chrome): <a href="https://sorting-algorithms-visualiser.vercel.app/" target="_blank">https://sorting-algorithms-visualiser.vercel.app/</a>
